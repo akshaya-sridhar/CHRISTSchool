@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url("./font/Montserrat-Regular.ttf");
+    src: url("./Montserrat-Regular.ttf");
 }
 
 *{
@@ -45,13 +45,13 @@ marquee{
 }
 
 .header{
-    display: flex;
     background-color: #1d3557;
     color: #ffffff;
     padding: 2%;
+    text-align: center;
     font-size: 1.7rem;
-    width: 100%;
 }
+
 .content_wrapper{
     display: flex;
 }
@@ -60,9 +60,11 @@ marquee{
     background-color: #457b9d;
     color: white;
     width: 17%;
+    height: 90vh;
     padding: 3% 2% 3% 4%;
     font-size: 1.2rem;
     line-height: 2.2rem;
+    transform: height 2s ease-in-out;
 }
 
 .headings li{
@@ -138,11 +140,9 @@ table{
         flex-direction: column;
     }
     .content_wrapper nav{
-        width: 90%;
-        padding: 0;
-    }
-    .content_wrapper nav li{
-        display: none;
+        padding:5% 10%;
+        height:fit-content;
+        width: 98%;
     }
     .content{
         width: 90%;
