@@ -62,7 +62,7 @@ marquee{
     width: 25%;
     font-size: 1.2rem;
     line-height: 2.2rem;
-    height: 95vh;
+    flex-grow: 100%;
 }
 
 .headings li{
