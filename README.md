@@ -26,7 +26,7 @@
 
 ## Overview
 
-![screenshot](https://raw.githubusercontent.com/AshwinKumar-V/CheckoutPage/main/Screenshot.jpg)
+![screenshot](https://raw.githubusercontent.com/AshwinKumar-V/CheckoutPage/main/.github/images/Screenshot.jpg)
 
 This website is a small dashboard for faculty and student details of CHRIST School. It contains faculty details in a ordered and unordered list format. The student details are represented in a tabular form. This page also includes a marquee on the footer section.
 
